@@ -159,6 +159,7 @@ body {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  padding-bottom: 2rem;
 }
 
 .main-header {
@@ -251,7 +252,7 @@ body {
   border-right: 0.01rem solid lightgray;
 }
 
-.other-technologies-header {
+.other-skills{
   margin-top: 2rem;
 }
 
@@ -299,23 +300,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-pack: distribute;
+  margin-top: 30px;
+  padding-bottom: 2rem;
   width: 100%;
+  gap: 40px;
 }
 
 .project {
   width: 40%;
-  margin: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   position: relative;
@@ -336,6 +329,7 @@ body {
   transition: 0.5s ease;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  object-fit: cover;
 }
 
 .overlay {
@@ -552,11 +546,13 @@ body {
   .programs-and-tools {
     border-top: 0.01rem solid lightgray;
     min-height: 340px;
+    margin-top: 1rem;
   }
 
   .other-skills {
-    min-height: 100px;
+    min-height: 340px;
     border-top: 0.01rem solid lightgray;
+    margin-top: 2rem;
   }
 
   .projects {
